@@ -1247,7 +1247,8 @@ define("LOGIN_STATUS_TEMP",2); //临时登录
 			}
 
 			$result['status'] = 1;
-			$result['info'] = $user_info['user_name'].",欢迎您回来".$msg;
+		//	$result['info'] = $user_info['user_name'].",欢迎您回来".$msg;
+            $result['info'] = $user_info['user_name'].",欢迎您回来";
 			$result['jump'] = url("index","index#index");
 
 		}
